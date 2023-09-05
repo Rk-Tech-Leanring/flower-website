@@ -1,0 +1,959 @@
+body{
+    margin:0px;
+    padding: 0px;
+    text-transform: capitalize;
+}
+.baner-header{
+}
+.header{
+    display: inline-flex;
+    background: white;
+    width: 100%;
+    padding: 0px;
+}
+.logo{
+    margin: 0px 50px;
+}
+.logo img{}
+
+.collapse{
+    margin: 0px 200px;
+}
+
+.menubar{
+    margin-left: 85px;
+}
+.menubar ul li a{
+    text-align: center;
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.menubar ul li a:hover{
+    color: black;
+    background: #FB4CA0;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 1s;
+}
+.btntop{
+    margin: 40px -85px;
+}
+.btntop button{
+    width: 200px;
+    font-size: 16px;
+    padding: 10px;
+    background: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.btntop button:hover{
+    background: #FB4CA0;
+    color: black;
+    border: 1px solid #FF8300;
+    transition: 1s;
+}
+
+.banner{
+    background: #FB4CA0;
+    animation: bannerbackground infinite 15s;
+}
+
+@keyframes bannerbackground{
+    0%{
+        background: #F3CBCF;
+    }
+    25%{
+        background: black;
+    }
+    50%{
+        background: #FB4CA0;
+    }
+    75%{
+        background: darkcyan;
+    }
+    100%{
+        background: #F3CBCF;
+    }
+}
+
+.bnrimg{
+    width: 600px;
+    animation: bannerimg infinite 20s;
+}
+
+@keyframes bannerimg{
+    0%{
+        background: url(../images/blackrose.png);
+        background-size: cover;
+    }
+    25%{
+        background: url(../images/blackrose.png);
+        background-size: cover;
+    }
+    50%{
+        background: url(../images/redrose-removebg-preview.png);
+        background-size: cover;
+    }
+    75%{
+        background: url(../images/Red-Roses-removebg-preview.png);
+        background-size: cover;
+    }
+    100%{
+        background: url(../images/beauty-removebg-preview.png);
+        background-size: cover;
+    }
+}
+
+.bannerleft{
+    padding: 95px 50px;
+}
+.bannerleft h6{
+    color: purple;
+    font-weight: 700;
+    display: inline-flex;
+}
+.bannerleft h1{
+    font-size: 47px;
+    font-weight: 700;
+    border-left: 6px solid purple;
+    padding-left: 15px;
+    margin: 20px 0px;
+    color:white;
+}
+.bannerleft p{
+    font-size: 18px;
+    margin-bottom: 60px;
+    margin-right: 45px;
+    color: white;
+}
+.bannerleft button{
+    width: 200px;
+    font-size: 16px;
+    padding: 10px;
+    background: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.bannerleft button:hover{
+    background: #FB4CA0;
+    color: black;
+    transition: 1s;
+}
+.bannaerbtn{
+    width: 200px;
+    font-size: 16px;
+    padding: 10px;
+    background: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.bannaerbtn:hover{
+    background: #FB4CA0;
+    color: black;
+    transition: 1s;
+}
+
+.aboutus{}
+.aboutleft h6, .serviceheading h6{
+    font-size: 18px;
+    font-weight: 700;
+    color:#FF8300;
+    animation: abouth6 infinite 10s;
+}
+
+@keyframes abouth6{
+    0%{
+        background: -webkit-linear-gradient(#FE8201, #333B70);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    25%{
+        background: -webkit-linear-gradient(purple, black);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    50%{
+        background: -webkit-linear-gradient(#c93f08, #bb1190);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    75%{
+        background: -webkit-linear-gradient(#7bec10, #0f1de7);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100%{
+        background: -webkit-linear-gradient(#FE8201, #333B70);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.featuredh5{
+    font-size: 22px;
+    color: purple;
+}
+.featuredtext{
+    font-size: 18px;
+    color: #FB4CA0;
+}
+
+.zoomleft{
+    background: url(../images/shutterstock_1178653333_600x400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+    width: 550px;
+}
+.zoomleft:hover{
+    background: url(../images/Slide_1_1950x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+}
+.zoombtn{
+    width: 200px;
+    background: #bb1190;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+}
+.zoombtn:hover{
+    background: #FB4CA0;
+    color: black;
+}
+
+.zoomright{
+    background: url(../images/Slide_1_1950x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+    width: 550px;
+}
+.zoomright:hover{
+    background: url(../images/shutterstock_235551766_600x400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+}
+
+.zoomleft2{
+    background: url(../images/gettyimages-590634523-2-1493049119.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+    width: 550px;
+}
+.zoomleft2:hover{
+    background: url(../images/close-up-of-red-rose-royalty-free-image-672727875-1546363000.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+}
+
+.zoomright2{
+    background: url(../images/rose.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+    width: 550px;
+}
+.zoomright2:hover{
+    background: url(../images/plants-guru-special-seeds-rose-blue-seeds-800x800.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+}
+
+.aboutleft h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.aboutleft p{
+    font-size: 18px;
+}
+.aboutleft hr{
+    border:3px solid purple;
+    opacity: 1;
+    width: 200px;
+}
+.aboutbottom{
+    display: inline-flex;
+}
+.aboutbottomleft{
+    width: 350px;
+    margin-right: 0px;
+}
+.aboutbottomleft p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+
+.featured{
+    padding: 50px 50px;
+}
+.owl-carousel{
+    padding: 30px 5px;
+    border: 1px solid #F03333;
+    border-radius: 10px;
+    display: inline-flex;
+}
+.fproductone{
+    width:280px;
+    padding:15px;
+}
+.fproductone img{
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 1px #e7e7e7;
+    padding: 40px 0px;
+}
+.fproductone p{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.fproductone h1{
+    font-size: 17px;
+    margin-bottom: 5px;
+    color:#F03333;
+}
+.fproductone h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.fproductone h3{
+    margin-right: 5px;
+    font-size: 14px;
+}
+.ratingicon{
+    color:#E8AC0C;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.servicecard{
+    background: url(../images/desktop-wallpaper-golden-invitation-black-background-gold-background-christmas-frame-black-invitation-black-and-gold-balloons-thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.servicecard:hover{
+    background: url(../images/gold-flowers-with-shadow-on-dark-background-vector-20432615.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 2s;
+}
+.servicebtn{
+    width: 200px;
+    background: #FAE588;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-size: 18px;
+    border: 1px solid white;
+    box-shadow: 3px 3px 9px black;
+
+}
+.servicecard:hover .servicebtn{
+    background: #f30367;
+    width: 150px;
+    transition: 2s;
+}
+.servicecard h5{
+    font-size: 35px;
+    text-shadow: 3px 0px 2px #f30367;
+    text-transform: capitalize;
+    color: #FAE588;
+    font-weight: 800;
+}
+.servicecard p{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: white;
+}
+
+
+
+
+.servicecardtwo{
+    background: url(../images/815088.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.servicecardtwo:hover{
+    background: url(../images/flower-wallpaper-ixpap-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 2s;
+}
+.servicebtn{
+    width: 200px;
+    background: #FAE588;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-size: 18px;
+    border: 1px solid white;
+    box-shadow: 3px 3px 9px black;
+
+}
+.servicecardtwo:hover .servicebtn{
+    background: #f30367;
+    width: 150px;
+    transition: 2s;
+}
+.servicecardtwo h5{
+    font-size: 35px;
+    text-shadow: 3px 0px 2px #f30367;
+    text-transform: capitalize;
+    color: #FAE588;
+    font-weight: 800;
+}
+.servicecardtwo p{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+
+
+.servicecardthree{
+    background: url(../images/pngtree-black-gold-wind-creative-black-background-design-gold-windblack-gold-image_62703.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.servicecardthree:hover{
+    background: url(../images/pngtree-all-black-gold-dreamy-background-picture-image_951691.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 2s;
+}
+.servicebtn{
+    width: 200px;
+    background: #FAE588;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-size: 18px;
+    border: 1px solid white;
+    box-shadow: 3px 3px 9px black;
+
+}
+.servicecardthree:hover .servicebtn{
+    background: #f30367;
+    width: 150px;
+    transition: 2s;
+}
+.servicecardthree h5{
+    font-size: 35px;
+    text-shadow: 3px 0px 2px #f30367;
+    text-transform: capitalize;
+    color: #FAE588;
+    font-weight: 800;
+}
+.servicecardthree p{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+
+.servicebanner{
+    background: url(../images/HD-wallpaper-floral-background-paper-texture-background-with-red-flowers-pink-background-floral-frame.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 150px;
+}
+
+.bannerbtn{
+    width: 250px;
+    background: #f30367;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+}
+.bannerbtn:hover{
+    background: #FAE588;
+    color: black;
+    transition: 1s;
+}
+.rkbanner{
+    padding-right: 280px !important;
+}
+.rkbanner h2{
+    text-transform: capitalize;
+    font-weight: 800;
+    color:#f30367;
+}
+.rkbanner p{
+    font-size: 18px;
+
+}
+
+
+.smilling{
+    background: url(../images/bg-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+.smillingright{
+    margin-left: 650px;
+}
+.smillingright p{
+    color: white;
+    font-size: 18px;
+}
+.smillingright h5{
+    color: white;
+    font-size: 25px;
+}
+.cardone{}
+.cardone span{
+    font-size: 55px;
+    color:#FB4CA0; 
+}
+.cardone h6{}
+.cardone p{
+    font-size: 18px;
+}
+.serviceheading{
+    
+}
+.serviceheading h6{
+    color:#FF8300; 
+}
+.serviceheading h2{
+    font-weight: 700;
+}
+.serviceheading hr{
+    border: 3px solid purple;
+    opacity: 1;
+    width: 165px;
+    margin: auto;   
+}
+.serviceheading p{
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 15px;
+}
+
+.servcardone{
+    background: black;
+    color: white;
+    padding: 55px 35px;
+    margin-right: 52px;
+    width: 550px;
+}
+.servcardone h6{
+
+}
+.servcardone p{
+    font-size: 17px;
+}
+.servcardone span{
+    font-size: 55px;
+    color:#FF8300;
+}
+.progres{
+    background: url(../images/h3-video-img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.progresbar{
+    background: #0000009e;
+    padding: 100px 0px;
+}
+
+.progresbar span{
+    font-size: 55px;
+    color:#FF8300;
+}
+.progresbar h2{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+.progresbar p{
+    font-size: 17px;
+    color: white;
+}
+
+.memberone{
+    width: 300px;
+    margin-left: -2px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.slider{
+}
+.memberone img{
+    border-radius: 5px;
+}
+.memberone h6{
+    color:#F03333;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 300;
+}
+.memberone p{
+    font-size: 17px;
+    font-family: 'Aladin', cursive;
+}
+.memberone span{
+    font-size: 18px;
+    color:white;
+    background: purple;
+    padding: 2px 30px;
+    border-radius: 5px;
+}
+
+
+.blog{
+    margin-top: 70px;
+}
+.blogcontent {
+    text-align: center;
+}
+.blogcontent h3{
+    font-size: 25px;
+    color: purple;
+    margin-bottom: 10px;
+}
+.blogcontent h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.blogcontent p{
+    font-size: 20px;
+    color:purple;
+}
+
+.blogarea{
+    display: inline-flex;
+    padding: 80px 90px;
+}
+.blogbox {
+    width:370px;
+    margin-right: 10px;
+    border:1px solid purple;
+    
+}
+.blogbox img{
+    width:100%;
+}
+.blogbox h1{
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding:15px;
+    text-transform: capitalize;
+}
+.blogbox p{
+    font-size: 18px;
+    padding:15px;
+}
+.blogbox button{
+    background:purple;
+    color:white;
+    border:none;
+    margin-top: 15px;
+    font-size:15px;
+    width:150px;
+    padding:15px;
+}
+
+
+
+.fheading{
+    background: #184341;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.fheadingiconone{
+    margin-left: 313px;
+    font-size: 18px;
+}
+.fheadingicontwo{
+    margin-left: 250px;
+    font-size: 18px;
+}
+.fheadingiconthree{
+    margin-left: 250px;
+    font-size: 18px;
+}
+.features{
+    background: url(../images/hand-drawn-flat-design-sunflower-border_23-2149244810.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.featureone{
+    background: #8f07c569;
+}
+.featureone h5{
+    font-weight: 700;
+    color: white;
+}
+
+.featureone p{
+    font-size: 18px;
+    color: white;
+}
+.featureone button{
+    width: 200px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    background:purple;
+    border: none;
+    border-radius: 25px;
+}
+.featureone button:hover{
+    background:#FB4CA0;
+    color: black;
+    transition: 1s;
+}
+.videoicon{
+    color: black;
+}
+.heading2{
+    color:#ff0040 !important;
+}
+.yvideo{
+    display: none;
+}
+.footer{
+    background: white;
+    color: black;
+    border-bottom: 1px dotted white;
+}
+.footerleft p{
+    font-size: 17px;
+}
+.footermiddle h5{
+    font-weight: 700;
+}
+.footermiddle p{
+    font-size: 17px;
+}
+.footerlefticon{
+    font-size: 18px;
+    animation: socialicon infinite 10s;
+}
+
+@keyframes socialicon{
+    0%{
+        color:#FF8300;
+    }
+    50%{
+        color:#3bee0e;
+    }
+    100%{
+        color:#0d20cc;
+    }
+}
+
+.footermiddleicon{
+    font-size: 18px;
+    color: purple;
+    margin-right: 10px;
+}
+.footerright h5{
+    font-weight: 700;
+}
+.footerright p{
+    font-size: 17px;
+}
+.footerrighticon{
+    font-size: 18px;
+    color: purple;
+    margin-right: 10px;
+}
+.footerright button{
+    width: 280px;
+    padding: 10px;
+    background: purple;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+}
+.footerright button:hover{
+    background: #F03333;
+    color: black;
+    border: 1px solid #FF8300;
+    transition: 1s;
+}
+input::placeholder{
+    font-size: 16px;
+    text-align: center;
+}
+.emailarea{
+    border-radius: 25px;
+}
+.bottom{
+    background: black;
+    color: white;
+}
+.bottomleft p{
+    font-size: 17px;
+}
+.bottomright span{
+    color: #F03333;;
+}
+.designer{
+    color: #F03333;
+}
+.checkicon{
+    color: #FF8300;
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.aboutbottomright{
+    width: 350px;
+    margin-left: -40px;
+}
+.aboutbottomright p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.aboutright{
+}
+
+.review-header{
+    border-left: 3px solid orange;
+    border-right: 3px solid orange;
+    animation: reviewbody infinite 10s;
+}
+
+@keyframes reviewbody{
+    0%{
+        background: radial-gradient(purple,  black);
+    }
+    25%{
+        background: radial-gradient(#FE8201, purple);
+    }
+    50%{
+        background: linear-gradient(purple, #FE8201, purple);
+    }
+    75%{
+        background: radial-gradient(#FE8201, purple);
+    }
+    100%{
+        background: radial-gradient(purple, #FE8201);
+    }
+}
+
+.review-body{
+    border-bottom: 3px solid orange;
+}
+.blockquote-footer{
+    
+}
+.quoticon{
+    color:#FF8300;
+}
+.reviewimg{
+    border: 1px solid orange;
+    padding: 5px;
+}
+.review-body p{
+    font-size: 17px;
+}
+.review-body footer{
+    color:#FF8300;
+    font-family: 'Aladin', cursive;
+}
+
+.contactleft{
+    margin-right: 10px;
+}
+.contactright{
+    margin-left: 80px;
+    box-shadow: 3px -3px 9px 3px purple;
+}
+.contactus{
+    animation: contactusbg infinite 10s;
+}
+
+@keyframes contactusbg{
+    0%{
+        background: radial-gradient(#FE8201, purple);
+    }
+    50%{
+        background: linear-gradient(purple, #FE8201, purple);
+    }
+    100%{
+        background: radial-gradient(purple, #FE8201);
+    }
+}
+
+.inputt{
+    width: 257px;
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 1px grey;
+    text-align: center;
+    font-size: 18px;
+}
+.subinputt{
+    width: 520px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 1px grey;
+    text-align: center;
+    font-size: 18px;
+}
+.contactbtn{
+    width:300px;
+    background: #FB4CA0;
+    color:black;
+    padding:10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 17px;
+}
+.contactbtn:hover{
+    background: purple;
+    color:white;
+    transition: 2s;
+}
